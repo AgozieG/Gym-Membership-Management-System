@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="aWo4mx8nhleMbLRWdMrC">
+    <mxGraphModel dx="778" dy="467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="Member" vertex="1">
+          <mxGeometry height="192.8" width="204" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-2" parent="ecT82VcJPBfUaqKGt1Jn-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+String memberId" vertex="1">
+          <mxGeometry height="37" width="204" y="36.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-3" parent="ecT82VcJPBfUaqKGt1Jn-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+String name" vertex="1">
+          <mxGeometry height="37" width="204" y="73.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-4" parent="ecT82VcJPBfUaqKGt1Jn-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="204" y="110.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-5" parent="ecT82VcJPBfUaqKGt1Jn-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+checkIn()" vertex="1">
+          <mxGeometry height="37" width="204" y="118.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-6" parent="ecT82VcJPBfUaqKGt1Jn-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+renewMembership()" vertex="1">
+          <mxGeometry height="37" width="204" y="155.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-7" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=36.8;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=0;marginBottom=0;fillColor=light-dark(#eeeeee,#1f2020);strokeColor=light-dark(#999999,#cccccc);fontColor=light-dark(#333333,#cccccc);" value="MembershipPlan" vertex="1">
+          <mxGeometry height="192.8" width="208" x="274" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-8" parent="ecT82VcJPBfUaqKGt1Jn-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+String planType" vertex="1">
+          <mxGeometry height="37" width="208" y="36.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-9" parent="ecT82VcJPBfUaqKGt1Jn-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+Number price" vertex="1">
+          <mxGeometry height="37" width="208" y="73.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-10" parent="ecT82VcJPBfUaqKGt1Jn-7" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1">
+          <mxGeometry height="8" width="208" y="110.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-11" parent="ecT82VcJPBfUaqKGt1Jn-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+getPlanDetails()" vertex="1">
+          <mxGeometry height="37" width="208" y="118.8" as="geometry" />
+        </mxCell>
+        <mxCell id="ecT82VcJPBfUaqKGt1Jn-12" parent="ecT82VcJPBfUaqKGt1Jn-7" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" value="+updatePrice()" vertex="1">
+          <mxGeometry height="37" width="208" y="155.8" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
